@@ -190,3 +190,4 @@ def display_video(frames):
     anim = animation.FuncAnimation(fig=fig, func=update, frames=frames,
                                    interval=50, blit=True, repeat=False)
     return HTML(anim.to_html5_video())
+
